@@ -16,6 +16,12 @@
             //Console.WriteLine(book.copiesInStock);
             ////yes, because this class can access internal fields from inside the same project/assembly
             #endregion
+
+            #region Question03
+            //Book book = new Book();
+            //book.Title = "Clean Code";
+            //Console.WriteLine(book.Title);
+            #endregion
         }
     }
     #region GeneralClass
@@ -23,6 +29,7 @@
     {
         private string Password = "secret";
         internal int copiesInStock = 5;
+        public string Title;
     }
     #endregion
 }
