@@ -44,6 +44,12 @@
             //Genre genre = Genre.Fiction;
             //Console.WriteLine(genre.ToString());
             #endregion
+
+            #region Question08
+            //string genreText = "Science";
+            //Genre genre = (Genre)Enum.Parse(typeof(Genre), genreText);
+            //Console.WriteLine(genre);
+            #endregion
         }
     }
     #region GeneralClass
