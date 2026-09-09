@@ -22,6 +22,12 @@
             //book.Title = "Clean Code";
             //Console.WriteLine(book.Title);
             #endregion
+
+            #region Question04
+            //Book book = new Book();
+            //book.Genre = Genre.Science;
+            //Console.WriteLine(book.Genre);
+            #endregion
         }
     }
     #region GeneralClass
@@ -30,6 +36,11 @@
         private string Password = "secret";
         internal int copiesInStock = 5;
         public string Title;
+        public Genre Genre;
     }
+    #endregion
+
+    #region GeneralEnum
+    public enum Genre { Fiction, NonFiction, Science }
     #endregion
 }
